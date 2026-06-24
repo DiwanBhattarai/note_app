@@ -1,0 +1,12 @@
+-- CREATE TABLE archieve
+-- (
+-- archieve_id INT PRIMARY KEY AUTO_INCREMENT ,
+-- user_id INT,
+-- item_id INT,
+-- selected_text TEXT,
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY(user_id) REFERENCES users(user_id),
+-- FOREIGN KEY(item_id) REFERENCES items(item_id)
+-- );
+-- ALTER TABLE archieve RENAME TO archive;
+-- ALTER TABLE archive RENAME COLUMN archieve_id TO archive_id;

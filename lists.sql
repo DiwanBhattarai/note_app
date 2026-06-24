@@ -1,0 +1,8 @@
+-- create table lists
+-- (
+-- lists_id INT PRIMARY KEY AUTO_INCREMENT,
+-- title TEXT,
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+-- ALTER TABLE lists ADD user_id INT NOT NULL;
+-- ALTER TABLE lists ADD CONSTRAINT user_id FOREIGN KEY (user_id) REFERENCES users(user_id) ;

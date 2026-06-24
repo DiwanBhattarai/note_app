@@ -1,0 +1,14 @@
+-- CREATE TABLE deletes
+-- (
+-- delete_id INT PRIMARY KEY AUTO_INCREMENT,
+-- user_id INT NOT NULL,
+-- item_id INT ,
+-- lists_id INT ,
+-- select_text TEXT,
+-- deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY (user_id) REFERENCES users(user_id),
+-- FOREIGN KEY (item_id) REFERENCES items(item_id),
+-- FOREIGN KEY (lists_id) REFERENCES lists(lists_id)
+-- );
+-- ALTER TABLE deletes ADD CONSTRAINT FOREIGN KEY (user_id) REFERENCES users(user_id)
+-- ON DELETE CASCADE;

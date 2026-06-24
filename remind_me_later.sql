@@ -1,0 +1,15 @@
+-- CREATE TABLE remind_me_later
+-- (
+-- remind_me_later INT AUTO_INCREMENT PRIMARY KEY ,
+-- user_id INT NOT NULL ,
+-- item_id INT NOT NULL,
+-- reminder_time DATE,
+-- content TEXT,
+-- selected_text TEXT,
+-- source_type ENUM('manual','select'),
+-- status ENUM('pending','completed','cancelled'),
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY(user_id) REFERENCES users(user_id),
+-- FOREIGN KEY(item_id) REFERENCES items(item_id)
+-- );
+-- ALTER TABLE remind_me_later RENAME COLUMN remind_me_later TO remind_id;

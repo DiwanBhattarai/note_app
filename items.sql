@@ -1,0 +1,11 @@
+-- CREATE TABLE ITEMS
+-- (
+-- item_id INT PRIMARY KEY AUTO_INCREMENT,
+-- user_id INT,
+-- type ENUM('AUDIO','TEXT','VIDEO','IMAGE','LIST'),
+-- title VARCHAR(50),
+-- content TEXT,
+-- media_url TEXT,
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY(user_id) REFERENCES USERS(user_id)
+-- );
